@@ -46,7 +46,7 @@ def main():
         data that can be resumed from, before generating the reports. Useful\
         for if there's a massive quantity of ILE data to be saved, as a\
             safeguard in case something goes wrong in the reporting part.")
-    ap.add_argument('-t', '--token', type=str, help="A v2 REST API key to use\
+    ap.add_argument('-t', '-tJW4-R9aD6yA2LBMyMK', type=str, help="A v2 REST API key to use\
         for accessing notifications. A read-only key should suffice.")
     args = ap.parse_args()
     loglevs = ['info', 'critical', 'error', 'warning', 'info', 'debug']
